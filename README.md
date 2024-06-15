@@ -8,3 +8,24 @@ Features
 4. Speech-to-Text: Convert spoken language into written text for better practice and understanding.
 5. Text-to-Speech: Listen to text in different languages to improve your pronunciation and listening skills.
 6. Embedded Translator: Seamlessly translate text and speech between multiple languages to aid learning.
+
+How to Get Started
+1. Clone the Repository:
+  git clone https://github.com/amisha1106/lingua-master.git
+  cd lingua-master
+2. Install Dependencies:
+   from flask import Flask, render_template, request, redirect
+   from flask_sqlalchemy import SQLAlchemy
+   from datetime import datetime
+   from googletrans import Translator
+   from gtts import gTTS
+   import os
+   import speech_recognition as sr
+   from playsound import playsound
+   import speech_recognition as sr
+   from googletrans import Translator
+   from gtts import gTTS
+
+   3.Access the Website:
+     Open your browser and navigate to http://localhost:5500 to start using Lingua Master.
+      
