@@ -26,6 +26,6 @@ How to Get Started
    from googletrans import Translator
    from gtts import gTTS
 
-   3.Access the Website:
-     Open your browser and navigate to http://localhost:5500 to start using Lingua Master.
+3. Access the Website:
+   Open your browser and navigate to http://localhost:5500 to start using Lingua Master.
       
